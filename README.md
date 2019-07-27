@@ -1,7 +1,7 @@
 # setricks
-The Go language doesn't really have a "set" data structure _per se_ but surely you can accomplish set-type operations (union, intersection, except) using maps, right? Let's find out.
+The Go language doesn't really have a "set" data structure _per se_ but surely you can accomplish set-type operations (union, intersection, except) using maps, right? This Go module provides these operations.
 
-To play around with this code and the set operations, [install go](https://medium.com/@dirk.avery/install-git-and-go-on-macos-8c0503028814) and feed it some data. Make a file called `set1.data` with these contents (each line is preceeded by a space):
+To play around with this module and the set operations, [install go](https://medium.com/@dirk.avery/install-git-and-go-on-macos-8c0503028814) and feed it some data. Make a file called `set1.data` with these contents (each line is preceeded by a space):
 
 (You could also fork this and changed the regex that finds the data if you have other types of data.)
 
